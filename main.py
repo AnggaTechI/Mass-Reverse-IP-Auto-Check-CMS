@@ -102,7 +102,6 @@ _IP_RE = re.compile(r"^\d{1,3}(\.\d{1,3}){3}$")
 def is_ip(value): return bool(_IP_RE.match(value))
 
 def ask_yes_no(prompt, default_yes=True):
-    """Ask y/n question; accept y/yes/t/ya or n/no/t/tidak (case-insensitive)."""
     hint = f"{DIM}(Y/n){RST}" if default_yes else f"{DIM}(y/N){RST}"
     raw = input(f"  {C}›{RST} {prompt} {hint} : ").strip().lower()
     if not raw:
@@ -233,7 +232,6 @@ class Stats:
 _ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
 
 def _visible_len(s):
-    """Length tanpa kode ANSI (buat hitung panjang real di terminal)."""
     return len(_ANSI_RE.sub('', s))
 
 def render(stats, lookup_total, force=False):
