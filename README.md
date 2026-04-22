@@ -1,51 +1,74 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=260&section=header&text=Mass%20Reverse%20IP%20Auto%20Check%20CMS&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=High-performance%20reverse%20IP%20scanner%20with%20optional%20Auto%20Check%20CMS&descAlignY=58&descSize=16" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Mass%20Reverse%20IP%20Auto%20Check%20CMS&fontSize=36&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=High-performance%20reverse%20IP%20scanner%20with%20optional%20Auto%20Check%20CMS%20for%20WordPress,%20Joomla,%20Drupal,%20Laravel,%20and%20more.&descAlignY=58&descSize=15" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=950&lines=Mass+Reverse+IP+Auto+Check+CMS;Fast+Async+Reverse+IP+Scanner;Optional+Auto+Check+CMS;WordPress+%7C+Joomla+%7C+Drupal+%7C+Laravel+and+more;Built+by+AnggaTechI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2300&pause=700&color=FF3CAC&center=true&vCenter=true&repeat=true&width=1000&lines=Mass+Reverse+IP+Auto+Check+CMS;Fast.+Aggressive.+Async.;Reverse+IP+at+Scale;Auto+Check+CMS+for+Multi-Target+Workflows;Built+by+AnggaTechI" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/AnggaTechI">
-    <img src="https://img.shields.io/badge/GitHub-AnggaTechI-0d1117?style=for-the-badge&logo=github" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/AsyncIO-High%20Performance-6A5ACD?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AIOHTTP-Fast-1E90FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Auto%20Check%20CMS-Enabled-EA4C89?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-00C853?style=for-the-badge" />
+  <a href="https://github.com/AnggaTechI"><img src="https://img.shields.io/badge/GitHub-AnggaTechI-0D1117?style=for-the-badge&logo=github" /></a>
+  <img src="https://img.shields.io/badge/Python-3.x-111827?style=for-the-badge&logo=python&logoColor=FFD43B" />
+  <img src="https://img.shields.io/badge/AsyncIO-Turbo-6D28D9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AIOHTTP-Enabled-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Auto%20Check%20CMS-Active-DB2777?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Terminal-Heavy%20Style-16A34A?style=for-the-badge" />
 </p>
 
 ---
 
-# Mass Reverse IP Auto Check CMS
+# ⚡ Mass Reverse IP Auto Check CMS
 
-> **High-performance reverse IP scanner with optional Auto Check CMS for WordPress, Joomla, Drupal, Laravel, and more.**
-
-## Overview
-
-**Mass Reverse IP Auto Check CMS** is a fast terminal-based Python tool for processing mixed targets such as **IP addresses, domains, and URLs**, then performing **reverse IP lookup** and optionally continuing with **Auto Check CMS** detection. The current script supports async lookup workers, optional CMS workers, per-CMS output files, mixed input normalization, and live terminal progress rendering.
-
-Built for speed and clean terminal output, this tool helps you collect discovered domains quickly and optionally separate them into CMS-based result files for faster review.
+> ### High-performance reverse IP scanner with optional Auto Check CMS for WordPress, Joomla, Drupal, Laravel, and more.
 
 ---
 
-## Features
+## 🩸 What is this?
 
-- Fast **async reverse IP lookup**
-- Accepts **IP / domain / URL** targets in one file
-- Optional **Auto Check CMS** after reverse IP lookup
-- Writes all unique discovered domains to `results.txt`
-- Separate per-CMS output files
-- Live terminal progress with lookup, IP, domain, and CMS counters
-- Windows and Linux support
-- Input and result de-duplication
-- Clean terminal UI with colored banner and summary output
+**Mass Reverse IP Auto Check CMS** is a high-speed terminal tool built to handle large target lists and keep output clean, organized, and easy to review.
+
+Feed it **IPs, domains, or URLs**, let it rip through reverse IP collection, and when needed, continue directly into **Auto Check CMS** mode to sort discovered domains into platform-based result files.
+
+This project is built around:
+
+- **async reverse IP processing**
+- **optional Auto Check CMS**
+- **live terminal progress**
+- **per-CMS output separation**
+- **fast workflow for large batches**
 
 ---
 
-## Supported CMS
+## 🔥 Core Features
+
+<table>
+<tr>
+<td width="50%">
+
+### ⚔ Reverse IP Engine
+- Fast async worker pipeline
+- Mixed target support
+- Input normalization
+- Domain/IP de-duplication
+- Large-list friendly flow
+
+</td>
+<td width="50%">
+
+### 🧠 Auto Check CMS
+- Optional CMS stage after reverse IP
+- Per-CMS output split
+- Quick signature-based detection
+- Clean file separation
+- Easy review workflow
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💀 Supported CMS
 
 <p align="center">
   <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" />
@@ -57,54 +80,47 @@ Built for speed and clean terminal output, this tool helps you collect discovere
   <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge" />
   <img src="https://img.shields.io/badge/PrestaShop-DF0067?style=for-the-badge" />
   <img src="https://img.shields.io/badge/OpenCart-0E77B7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/vBulletin-2D3E50?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/phpBB-4C5D7A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/vBulletin-1F2937?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/phpBB-475569?style=for-the-badge" />
 </p>
 
 ---
 
-## How It Works
+## 🧨 Workflow
 
 ```mermaid
 flowchart TD
-    A[input.txt] --> B[Normalize and dedupe targets]
-    B --> C[Resolve host to IP]
-    C --> D[Reverse IP lookup]
-    D --> E[Write results.txt]
-    E --> F{Auto Check CMS enabled?}
-    F -- Yes --> G[Process discovered domains]
-    G --> H[Detect CMS signatures]
-    H --> I[Write per CMS files]
-    F -- No --> J[Finish]
+    A[targets.txt] --> B[Normalize Targets]
+    B --> C[Resolve Host to IP]
+    C --> D[Reverse IP Lookup]
+    D --> E[results.txt]
+    E --> F{Auto Check CMS?}
+    F -- Yes --> G[Analyze Discovered Domains]
+    G --> H[Detect CMS Signatures]
+    H --> I[Split Output by CMS]
+    F -- No --> J[Done]
 ```
 
 ---
 
-## Installation
-
-Install dependencies:
+## 🚀 Installation
 
 ```bash
 python -m pip install aiohttp aiodns
-```
-
-Run the tool:
-
-```bash
 python main.py
 ```
 
 ---
 
-## Usage
+## ⚙ Usage
 
-When the script starts, it will ask for:
+When the tool runs, you will be prompted for:
 
-- **Input file**
-- **Enable Auto Check CMS?**
-- **Concurrency value**
+- **input file**
+- **Auto Check CMS mode**
+- **concurrency value**
 
-### Example input file
+### Example input
 
 ```txt
 1.1.1.1
@@ -116,15 +132,15 @@ sub.target.tld
 
 ---
 
-## Output Files
+## 📂 Output Structure
 
-### Main Output
+### Main output
 
 ```txt
 results.txt
 ```
 
-### CMS Output
+### CMS output files
 
 ```txt
 wordpress.txt
@@ -142,51 +158,27 @@ phpbb.txt
 
 ---
 
-## Performance
+## 🖥 Terminal Style
 
-- Async worker-based processing
-- Separate reverse IP and Auto Check CMS stages
-- Optimized defaults for Windows and Linux
-- Fast DNS resolution path depending on platform
-- Live progress updates during execution
+This project is made to feel alive in the terminal:
 
----
-
-## Terminal Preview
-
-```text
-[INPUT]
-› File input  : targets.txt
-› Active CMS detection? (Y/n) : y
-› Concurrency (default=200, max=2000) : 200
-
-▸ Total target  : 10,000
-▸ Mode          : Reverse IP + Auto Check CMS
-▸ Concurrency   : 200 (lookup) + 400 (cms)
-▸ Output all    : results.txt
-```
+- custom colored banner
+- live counters
+- progress rendering
+- summary breakdown
+- fast visual feedback during execution
 
 ---
 
-## Why This Tool
-
-- Fast processing for large target lists
-- Clean output separation by CMS
-- Easy terminal workflow
-- Good balance between speed and readable output
-- Simple setup and direct execution
-
----
-
-## Notes
+## 🛡 Notes
 
 - Reverse IP results depend on the upstream API response.
-- Auto Check CMS is signature-based, so custom or heavily modified sites may appear as unknown.
+- Auto Check CMS is signature-based, so some targets may remain unknown.
 - Use this tool only on infrastructure you manage or are authorized to assess.
 
 ---
 
-## Author
+## 👑 Author
 
 <p align="center">
   <a href="https://github.com/AnggaTechI">
@@ -200,5 +192,5 @@ phpbb.txt
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" />
 </p>
